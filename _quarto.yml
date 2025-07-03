@@ -5,24 +5,23 @@ project:
 website:
   title: "Mert Kobaş"
   navbar:
-    left: 
+    pinned: true
+    right:
       - text: "Home"
         file: index.qmd
       - text: "Publications"
         file: publications.qmd
       - text: "CV"
-        file: cv.qmd
-    right:
-      - icon: linkedin
-        href: www.linkedin.com
-      - icon: github
-        href: https://github.com/mertkobas
-      - icon: twitter
-        href: https://x.com/mertkobas
+        file: MertCv.pdf
+
 format:
   html:
-    theme: solar
-    css: styles.css
+    theme: yeti
+    toc: false
+    grid:
+      sidebar-width: 150px
+      margin-width: 200px
+    
 
 editor: visual
 
