@@ -6,7 +6,7 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: x.com/mertkobas
+      href: https://x.com/mertkobas
     - icon: linkedin
       text: LinkedIn
       href: www.linkedin.com/in/mertkobas/

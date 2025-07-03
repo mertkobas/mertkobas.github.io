@@ -18,7 +18,7 @@ website:
       - icon: github
         href: https://github.com/mertkobas
       - icon: twitter
-        href: https:/x.com/mertkobas
+        href: https://x.com/mertkobas
 format:
   html:
     theme: solar
