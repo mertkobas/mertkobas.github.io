@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mert Kobaş",
+    "section": "",
+    "text": "Hi, I’m Mert!\nI’m a Psychology Ph.D. candidate in the Cognitive Development Lab at New York University, specializing in quantitative methods. My research explores the role of children’s actions and parent-child interactions in language development, as well as how language shapes the mind, particularly its role in reasoning and making sense of the world. I study this process developmentally, examining how early linguistic input, such as specific parental speech, interacts with or overrides infants’ sensory-motor experiences to support vocabulary learning.\nBeyond language development, I also study how children and adults use language to understand their world; specifically, how they generate explanations and the cognitive processes that support this ability. My research examines how this explanatory capacity develops and varies across contexts, with a focus on the roles of rational inference and cognitive biases in shaping how people reason about causes from early childhood onward.\nI extend this framework into artificial intelligence by studying the reasoning processes within Large Language Models (LLMs) and in interactions between LLMs and humans, aiming to understand their capabilities and limitations as cognitive agents.\nI hold a Bachelor of Science in Educational Sciences from Boğaziçi University and a Master of Arts in Psychology from Koç University.\nOutside the lab, I enjoy reading, watching anime, exercising, playing guitar, and gaming. I’m passionate about developing and exploring machine learning and AI models—feel free to check out some of my recent projects!"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "This was a project using …."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index_old.html",
+    "href": "index_old.html",
+    "title": "mertkobas-blog",
+    "section": "",
+    "text": "Analysis\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nr\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\nMert Kobaş\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJun 28, 2025\n\n\nMert Kobaş\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications\n\n\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nr\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\nMert Kobaş\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJun 28, 2025\n\n\nMert Kobaş\n\n\n\n\n\n\nNo matching items"
+  }
+]

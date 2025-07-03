@@ -1,0 +1,9 @@
+---
+title: "Analysis"
+author: "Mert Kobaş"
+date: "2025-07-01"
+categories: [code, analysis, r]
+image: "image.jpg"
+---
+
+This was a project using ....
