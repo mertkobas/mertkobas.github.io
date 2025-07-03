@@ -16,7 +16,7 @@ website:
 
 format:
   html:
-    theme: yeti
+    theme: flatly
     toc: false
     grid:
       sidebar-width: 150px
