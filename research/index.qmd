@@ -5,7 +5,7 @@ listing:
     contents: "articles/*/index.qmd"
     sort: "date desc"
     template: ../html/research/listing.ejs
-    categories: true
+    categories: false
 page-layout: full
 include-back-link: false
 toc-location: right

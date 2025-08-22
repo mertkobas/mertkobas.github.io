@@ -5,7 +5,7 @@ date: "2025-06-28"
 categories: 
 pub-info:
   reference: >-
-    Kobaş, M., Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., & Göksun, T. (2023).
+    <b>Kobaş, M.</b>, Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., & Göksun, T. (2023).
     Motor skills, language development, and visual processing in preterm and full-term infants. Current
     Psychology, 1-13.
   links:

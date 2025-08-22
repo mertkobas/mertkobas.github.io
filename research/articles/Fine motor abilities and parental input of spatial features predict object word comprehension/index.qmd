@@ -5,7 +5,7 @@ date: "2025-06-28"
 categories: 
 pub-info:
   reference: >-
-    Kobaş, M. Aktan-Erciyes, A., & Göksun, T. (2021). Fine Motor Abilities and Parental Input of Spatial
+    <b>Kobaş, M.</b>, Aktan-Erciyes, A., & Göksun, T. (2021). Fine Motor Abilities and Parental Input of Spatial
     Features Predict Object Word Comprehension of Turkish-Learning Children. Infant and Child
     Development, 30(4), e2243.
   links:

@@ -5,8 +5,8 @@ date: "2025-06-28"
 categories: 
 pub-info:
   reference: >-
-    Kobaş, M., Demir-Lira, Ö., Akman, İ., & Göksun, T. (2025). Spatial Language Development in Preterm and
-    Full-Term Infants: The Role of Object Exploration and Parents’ Spatial Input. Journal of Child
+    <b>Kobaş, M.</b>, Demir-Lira, Ö., Akman, İ., & Göksun, T. (2025). Spatial Language Development in Preterm 
+    and Full-Term Infants: The Role of Object Exploration and Parents’ Spatial Input. Journal of Child
     Experimental Psychology, 256, 106264.
   links:
     - name: Article
