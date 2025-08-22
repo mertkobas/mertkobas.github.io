@@ -1,0 +1,15 @@
+---
+title: " Motor skills, language development, and visual processing in preterm and full-term infants "
+author: "Mert Kobaş"
+date: "2025-06-28"
+categories: [articles]
+---
+
+# Motor skills, language development, and visual processing in preterm and full-term infants
+
+## Abstract
+
+\
+Language development is intertwined with motor development. This study examined how visual processing might mediate the relation between language development and motor skills in preterm (PT, n = 34, Mean gestational age = 30 weeks) and full-term infants (FT, n = 35, Mean gestational age = 38.9 weeks) at 13 months of age. Infants’ visual processing, fine and gross motor skills were tested using the Mullen Scales of Early Learning. Parents reported on infants’ language skills (word comprehension and early communicative behavior), using the Turkish version of CDI (TCDI). Results showed that PT infants performed worse than their FT peers on gross motor skills and visual processing, but not on language. When controlling for age and neonatal condition (being preterm or not), visual processing mediated the relation between gross motor skills and word comprehension as well as early communicative behavior. However, for fine motor skills, visual processing mediated the relation between fine motor skills and early communicative behavior but not word comprehension. The relations between motor skills and visual processing were more robust for the PT group than the FT group. Following developmental cascades, these findings suggest that motor skills contribute to language development through visual processing. These relations are prominent for preterm infants who have delays in motor skills. PT children’s limited interactions with their environment due to problems in motor skills can be connected to delays in visual processing.
+
+[Click here to read this article!](https://link.springer.com/article/10.1007/s12144-021-02658-8)

@@ -9,8 +9,8 @@ website:
     right:
       - text: "Home"
         file: index.qmd
-      - text: "Publications"
-        file: publications.qmd
+      - text: "Research"
+        file: research/index.qmd
       - text: "CV"
         file: MertCv.pdf
 

@@ -16,7 +16,7 @@ about:
 
     - icon: mortarboard
       text: Google Scholar
-      href: "https://scholar.google.com/citations?user=euD5Cr0AAAAJ&hl=en&oi=ao"
+      href: "https://scholar.google.com/citations?user=DTqSxk4AAAAJ&hl=en&oi=ao"
 
     - icon: twitter
       text: Twitter
