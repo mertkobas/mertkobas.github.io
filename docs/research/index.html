@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mert Kobaş - Publications</title>
+<title>Mert Kobaş - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,20 +62,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-author','listing-date','listing-pub-info','listing-doi','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-author","listing-date","listing-pub-info","listing-doi","listing-path","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Mert Kobaş</span>
     </a>
   </div>
@@ -110,15 +110,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html">
+    <a class="nav-link active" href="../research/index.html" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./MertCv.pdf">
+    <a class="nav-link" href="../MertCv.pdf">
  <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -128,143 +128,105 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Publications</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="articles">articles <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>Publications</p>
+    
+  
+    
+  </div>
+  
 
+</header>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="articles" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1751513457883" data-listing-reading-time-sort="1.71">
-<div class="body">
-<a href="./posts/Spatial language development in preterm and full-term infants/index.html">
-<h3 class="no-anchor listing-title">
-Spatial language development in preterm and full-term infants: The role of object exploration and parents’ spatial input
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('articles'); return false;">
-articles
-</div>
-</div>
-<a href="./posts/Spatial language development in preterm and full-term infants/index.html">
-<div class="listing-description">
-Investigating the relation among object exploration, parents’ spatial input, and spatial language development in preterm and full-term infants.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Spatial language development in preterm and full-term infants/index.html">
-<div class="listing-date">
-Jun 28, 2025
-</div>
-<div class="listing-author">
-Mert Kobaş
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="articles" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1751513094055" data-listing-reading-time-sort="1.145">
-<div class="body">
-<a href="./posts/Motor skills, language development, and visual processing/index.html">
-<h3 class="no-anchor listing-title">
-Motor skills, language development, and visual processing in preterm and full-term infants
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('articles'); return false;">
-articles
-</div>
-</div>
-<a href="./posts/Motor skills, language development, and visual processing/index.html">
-<div class="listing-description">
-<br>
-Language development is intertwined with motor development. This study examined how visual processing might mediate the relation between language development and motor…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Motor skills, language development, and visual processing/index.html">
-<div class="listing-date">
-Jun 28, 2025
-</div>
-<div class="listing-author">
-Mert Kobaş
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="articles" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1751512966337" data-listing-reading-time-sort="0.96">
-<div class="body">
-<a href="./posts/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html">
-<h3 class="no-anchor listing-title">
-Fine motor abilities and parental input of spatial features predict object word comprehension of Turkish-learning children
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('articles'); return false;">
-articles
-</div>
-</div>
-<a href="./posts/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html">
-<div class="listing-description">
-<br>
-Object word learning can be based on infant-related factors such as their manual actions and socio-linguistic factors such as parental input. Specific input for spatial…<em></em><sub></sub><em></em><sub></sub><em></em><sub></sub>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html">
-<div class="listing-date">
-Jun 28, 2025
-</div>
-<div class="listing-author">
-Mert Kobaş
-</div>
-</a>
-</div>
-</div>
+<section id="journal-articles" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<div class="research project-list">
+<ul class="list">
+        <li class="project" data-index="0" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1755900606385" data-listing-reading-time-sort="0.975">
+            <div class="project-content listing-pub-info">
+                <p>Kobaş, M. Aktan-Erciyes, A., &amp; Göksun, T. (2021). Fine Motor Abilities and Parental Input of Spatial Features Predict Object Word Comprehension of Turkish-Learning Children. Infant and Child Development, 30(4), e2243.</p>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1002/icd.2243">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="1" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1755900503867" data-listing-reading-time-sort="1.145">
+            <div class="project-content listing-pub-info">
+                <p>Kobaş, M., Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., &amp; Göksun, T. (2023). Motor skills, language development, and visual processing in preterm and full-term infants. Current Psychology, 1-13.</p>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/Motor skills, language development, and visual processing/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1007/s12144-021-02658-8">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="2" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1755900482450" data-listing-reading-time-sort="1.715">
+            <div class="project-content listing-pub-info">
+                <p>Kobaş, M., Demir-Lira, Ö., Akman, İ., &amp; Göksun, T. (2025). Spatial Language Development in Preterm and Full-Term Infants: The Role of Object Exploration and Parents’ Spatial Input. Journal of Child Experimental Psychology, 256, 106264.</p>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/Spatial language development in preterm and full-term infants/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1016/j.jecp.2025.106264">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+</ul>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
