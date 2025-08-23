@@ -1,21 +1,41 @@
 ---
 title: " Spatial language development in preterm and full-term infants: The role of object exploration and parents’ spatial input "
-author: "Mert Kobaş"
-date: "2025-06-28"
-categories: 
+author: 
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: New York University, Koç University
+  - name: Ece Demir-Lira
+    url: https://psychology.uiowa.edu/people/ece-demir-lira
+    orcid: 0000-0002-8506-0250
+    affiliation: University of Iowa
+  - name: İpek Akman
+    affiliation: Maltepe University
+  - name: Tilbe Göksun
+    url: https://tilbegoksunyoruk.com/
+    orcid: 0000-0002-0190-7988
+    affiliation: Koç University
+date: "2025-08-01"
+categories:
+  -  Object exploration
+  -  Preterm Infants
+  -  Spatial Language
+  -  Parental Input
+  -  Language Development
 pub-info:
   reference: >-
-    <b>Kobaş, M.</b>, Demir-Lira, Ö., Akman, İ., & Göksun, T. (2025). Spatial Language Development in Preterm 
-    and Full-Term Infants: The Role of Object Exploration and Parents’ Spatial Input. Journal of Child
-    Experimental Psychology, 256, 106264.
+    <b>Kobaş, M.</b>, Demir-Lira, Ö., Akman, İ., & Göksun, T. (2025). Spatial Language
+    Development in Preterm and Full-Term Infants: The Role of Object Exploration and Parents’
+    Spatial Input. <i>Journal of Child Experimental Psychology</i>, 256, 106264.
   links:
     - name: Article
       url: https://doi.org/10.1016/j.jecp.2025.106264
       icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1016/j.jecp.2025.106264
+      icon: ai ai-zotero
 doi: 10.1016/j.jecp.2025.106264
 ---
-
-# Spatial language development in preterm and full-term infants: The role of object exploration and parents’ spatial input
 
 ## Highlights
 
@@ -31,7 +51,6 @@ doi: 10.1016/j.jecp.2025.106264
 
 ## Abstract
 
-\
 Infants learn object features and relations among objects by exploring them. Object exploration and parents’ verbal input related to these spatial characteristics may lead to cascades for the development of spatial language. This longitudinal study examined whether infant object exploration and parents’ spatial input at Time 1 (*M*~age~ = 13.7 months) predicted spatial language of preterm infants (mean gestational age = 30 weeks) and full-term infants (mean gestational age = 38.9 weeks) at Time 2 (*M*~age~ = 26 months). The object exploration and parents’ spatial input at Time 1 were coded from the semi-structured free play sessions, and infant spatial language was assessed via a parental report at Time 2. Our results showed no differences between preterm and full-term groups on object exploration. However, parents’ spatial input differed based on neonatal condition, in which preterm infants received less input than full-term infants. Parents’ spatial input co-occurred with 44% of the object exploration events, with a significant difference between groups (preterm: *M* = 36.1%; full-term: *M* = 52.1%). Importantly, the interaction between object exploration and parents’ spatial input at Time 1 predicted children’s spatial language knowledge at Time 2 regardless of children’s neonatal status. Infants who explored objects for longer periods and received greater spatial input from their parents at Time 1 knew more spatial words at Time 2 than infants who explored objects less and received less input at Time 1. These findings suggest that early object exploration and parents’ spatial input together can lead to a cascading effect on later spatial language development for both preterm and full-term infants.
 
 [Click here to read this article!](https://www.sciencedirect.com/science/article/abs/pii/S0022096525000700)

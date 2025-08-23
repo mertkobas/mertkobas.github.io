@@ -62,20 +62,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    const listingTargetEl = window.document.querySelector('#listing-language-development .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-author','listing-date','listing-pub-info','listing-doi','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-author','listing-date','listing-categories','listing-pub-info','listing-doi','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-author","listing-date","listing-pub-info","listing-doi","listing-path","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-author","listing-date","listing-categories","listing-pub-info","listing-doi","listing-path","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+    window['quarto-listings']['listing-language-development'] = new List('listing-language-development', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-explanatory-reasoning .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-author','listing-date','listing-categories','listing-pub-info','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-author","listing-date","listing-categories","listing-pub-info","listing-path","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-doi"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-explanatory-reasoning'] = new List('listing-explanatory-reasoning', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ai-research .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-author','listing-date','listing-categories','listing-pub-info','listing-doi','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-author","listing-date","listing-categories","listing-pub-info","listing-doi","listing-path","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ai-research'] = new List('listing-ai-research', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -131,9 +187,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Artificial Intelligence">Artificial Intelligence <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Causal Reasoning">Causal Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Explanation Generation">Explanation Generation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Force Dynamics">Force Dynamics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Gesture">Gesture <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Inherent bias">Inherent bias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Language Development">Language Development <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Mental Transformation">Mental Transformation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Multimodal Input">Multimodal Input <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Multimodal models">Multimodal models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Object Words">Object Words <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Object exploration">Object exploration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Parental Input">Parental Input <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Persuasion">Persuasion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Preterm Infants">Preterm Infants <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Relational Reasoning">Relational Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sensorimotor Abilities">Sensorimotor Abilities <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Spatial Language">Spatial Language <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Spatial Reasoning">Spatial Reasoning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Visual Processing">Visual Processing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Word Comprehension">Word Comprehension <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Word Production">Word Production <span class="quarto-category-count">(2)</span></div><div class="category" data-category="causal reasoning">causal reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="explanation generation">explanation generation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="inherence bias">inherence bias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="scientific explanations">scientific explanations <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -152,38 +209,127 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<section id="language-development" class="level2">
+<h2 class="anchored" data-anchor-id="language-development">Language Development</h2>
+<div id="listing-language-development" class="quarto-listing quarto-listing-container-custom">
 <div class="research project-list">
 <ul class="list">
-        <li class="project" data-index="0" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1755900956799" data-listing-reading-time-sort="0.97">
+        <li class="project" data-index="0" data-categories="Object exploration,Preterm Infants,Spatial Language,Parental Input,Language Development" data-listing-date-sort="1753995600000" data-listing-file-modified-sort="1755932821811" data-listing-reading-time-sort="1.71">
             <div class="project-content listing-pub-info">
-                <p><b>Kobaş, M.</b>, Aktan-Erciyes, A., &amp; Göksun, T. (2021). Fine Motor Abilities and Parental Input of Spatial Features Predict Object Word Comprehension of Turkish-Learning Children. Infant and Child Development, 30(4), e2243.</p>
+                <p><b>Kobaş, M.</b>, Demir-Lira, Ö., Akman, İ., &amp; Göksun, T. (2025). Spatial Language Development in Preterm and Full-Term Infants: The Role of Object Exploration and Parents’ Spatial Input. <i>Journal of Child Experimental Psychology</i>, 256, 106264.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Object exploration">
+                            Object exploration
+                        </a></div>
+                    <div class="project-category"><a href="#category=Preterm Infants">
+                            Preterm Infants
+                        </a></div>
+                    <div class="project-category"><a href="#category=Spatial Language">
+                            Spatial Language
+                        </a></div>
+                    <div class="project-category"><a href="#category=Parental Input">
+                            Parental Input
+                        </a></div>
+                    <div class="project-category"><a href="#category=Language Development">
+                            Language Development
+                        </a></div>
             </div>
             <div class="project-details-listing">
                 <ul class="project-links">
                     <li class="project-link details">
-                        <a href="../research/articles/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html" class="listing-name">
+                        <a href="../research/language-development/Spatial language development in preterm and full-term infants/index.html" class="listing-name">
                             <i class="fa-solid fa-circle-info"></i> Full details »
                         </a>
                     </li>
                     <li class="project-link">
-                        <a href="https://doi.org/10.1002/icd.2243">
+                        <a href="https://doi.org/10.1016/j.jecp.2025.106264">
                             <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1016/j.jecp.2025.106264">
+                            <i class="ai ai-zotero"></i> Add to Zotero
                         </a>
                     </li>
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="1" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1755900941676" data-listing-reading-time-sort="1.145">
+        <li class="project" data-index="1" data-categories="Multimodal Input,Preterm Infants,Word Comprehension,Word Production,Gesture,Language Development" data-listing-date-sort="1752526800000" data-listing-file-modified-sort="1755940924230" data-listing-reading-time-sort="0.98">
             <div class="project-content listing-pub-info">
-                <p><b>Kobaş, M.</b>, Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., &amp; Göksun, T. (2023). Motor skills, language development, and visual processing in preterm and full-term infants. Current Psychology, 1-13.</p>
+                <p>Doğan, I., Kızıldere, E., <b>Kobaş, M.</b>,Aktan-Erciyes, A., Demir-Lira, Ö. E., Akman, ., &amp; Göksun, T. (2025). Early parental multimodal input is differentially associated with later vocabulary knowledge for preterm and full-term infants. <i>Language Learning and Development</i>, 1-27.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Multimodal Input">
+                            Multimodal Input
+                        </a></div>
+                    <div class="project-category"><a href="#category=Preterm Infants">
+                            Preterm Infants
+                        </a></div>
+                    <div class="project-category"><a href="#category=Word Comprehension">
+                            Word Comprehension
+                        </a></div>
+                    <div class="project-category"><a href="#category=Word Production">
+                            Word Production
+                        </a></div>
+                    <div class="project-category"><a href="#category=Gesture">
+                            Gesture
+                        </a></div>
+                    <div class="project-category"><a href="#category=Language Development">
+                            Language Development
+                        </a></div>
             </div>
             <div class="project-details-listing">
                 <ul class="project-links">
                     <li class="project-link details">
-                        <a href="../research/articles/Motor skills, language development, and visual processing/index.html" class="listing-name">
+                        <a href="../research/language-development/Early parental multimodal input is differentially associated with later vocabulary knowledge for preterm and full-term infants/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1080/15475441.2025.2529892">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1080/15475441.2025.2529892">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="2" data-categories="Visual Processing,Sensorimotor Abilities,Preterm Infants,Word Comprehension,Word Production,Gesture,Language Development" data-listing-date-sort="1641243600000" data-listing-file-modified-sort="1755932558720" data-listing-reading-time-sort="1.14">
+            <div class="project-content listing-pub-info">
+                <p><b>Kobaş, M.</b>, Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., &amp; Göksun, T. (2022). Motor skills, language development, and visual processing in preterm and full-term infants. <i>Current Psychology</i>, 1-13.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Visual Processing">
+                            Visual Processing
+                        </a></div>
+                    <div class="project-category"><a href="#category=Sensorimotor Abilities">
+                            Sensorimotor Abilities
+                        </a></div>
+                    <div class="project-category"><a href="#category=Preterm Infants">
+                            Preterm Infants
+                        </a></div>
+                    <div class="project-category"><a href="#category=Word Comprehension">
+                            Word Comprehension
+                        </a></div>
+                    <div class="project-category"><a href="#category=Word Production">
+                            Word Production
+                        </a></div>
+                    <div class="project-category"><a href="#category=Gesture">
+                            Gesture
+                        </a></div>
+                    <div class="project-category"><a href="#category=Language Development">
+                            Language Development
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/language-development/Motor skills, language development, and visual processing/index.html" class="listing-name">
                             <i class="fa-solid fa-circle-info"></i> Full details »
                         </a>
                     </li>
@@ -192,23 +338,241 @@ ul.task-list li input[type="checkbox"] {
                             <i class="fa-solid fa-scroll"></i> Article
                         </a>
                     </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1007/s12144-021-02658-8">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="2" data-listing-date-sort="1751058000000" data-listing-file-modified-sort="1755900901616" data-listing-reading-time-sort="1.715">
+        <li class="project" data-index="3" data-categories="Sensorimotor Abilities,Parental Input,Object Words,Word Comprehension,Language Development" data-listing-date-sort="1622494800000" data-listing-file-modified-sort="1755932583987" data-listing-reading-time-sort="0.965">
             <div class="project-content listing-pub-info">
-                <p><b>Kobaş, M.</b>, Demir-Lira, Ö., Akman, İ., &amp; Göksun, T. (2025). Spatial Language Development in Preterm and Full-Term Infants: The Role of Object Exploration and Parents’ Spatial Input. Journal of Child Experimental Psychology, 256, 106264.</p>
+                <p><b>Kobaş, M.</b>, Aktan-Erciyes, A., &amp; Göksun, T. (2021). Fine Motor Abilities and Parental Input of Spatial Features Predict Object Word Comprehension of Turkish-Learning Children. <i>Infant and Child Development</i>, 30(4), e2243.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Sensorimotor Abilities">
+                            Sensorimotor Abilities
+                        </a></div>
+                    <div class="project-category"><a href="#category=Parental Input">
+                            Parental Input
+                        </a></div>
+                    <div class="project-category"><a href="#category=Object Words">
+                            Object Words
+                        </a></div>
+                    <div class="project-category"><a href="#category=Word Comprehension">
+                            Word Comprehension
+                        </a></div>
+                    <div class="project-category"><a href="#category=Language Development">
+                            Language Development
+                        </a></div>
             </div>
             <div class="project-details-listing">
                 <ul class="project-links">
                     <li class="project-link details">
-                        <a href="../research/articles/Spatial language development in preterm and full-term infants/index.html" class="listing-name">
+                        <a href="../research/language-development/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html" class="listing-name">
                             <i class="fa-solid fa-circle-info"></i> Full details »
                         </a>
                     </li>
                     <li class="project-link">
-                        <a href="https://doi.org/10.1016/j.jecp.2025.106264">
+                        <a href="https://doi.org/10.1002/icd.2243">
                             <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1002/icd.2243">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+</ul>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="explanatory-reasoning-causal-inferences" class="level2">
+<h2 class="anchored" data-anchor-id="explanatory-reasoning-causal-inferences">Explanatory Reasoning &amp; Causal Inferences</h2>
+<div id="listing-explanatory-reasoning" class="quarto-listing quarto-listing-container-custom">
+<div class="research project-list">
+<ul class="list">
+        <li class="project" data-index="0" data-categories="inherence bias,scientific explanations,causal reasoning,explanation generation" data-listing-date-sort="NaN" data-listing-file-modified-sort="1755943349479" data-listing-reading-time-sort="0.01">
+            <div class="project-content listing-pub-info">
+                <p>Horne, Z., <b> Kobas, M. </b>, &amp; Cimpian, A. (under review). Historical and Empirical Evidence for an Inherence Bias in Scientific Explanation.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=inherence bias">
+                            inherence bias
+                        </a></div>
+                    <div class="project-category"><a href="#category=scientific explanations">
+                            scientific explanations
+                        </a></div>
+                    <div class="project-category"><a href="#category=causal reasoning">
+                            causal reasoning
+                        </a></div>
+                    <div class="project-category"><a href="#category=explanation generation">
+                            explanation generation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/explanatory-reasoning/Historical and Empirical Evidence for an Inherence Bias in Scientific Explanation/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.research.ed.ac.uk/en/projects/historical-and-empirical-evidence-for-an-inherence-bias-in-scient">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="1" data-categories="Explanation Generation,Inherent bias" data-listing-date-sort="NaN" data-listing-file-modified-sort="1755934463114" data-listing-reading-time-sort="0.005">
+            <div class="project-content listing-pub-info">
+                <p><b>Kobaş, M.</b>, &amp; Cimpian, A. (in preparation). Reconciling two competing views on the process of generating explanations: Rational inference vs. intuitive biases.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Explanation Generation">
+                            Explanation Generation
+                        </a></div>
+                    <div class="project-category"><a href="#category=Inherent bias">
+                            Inherent bias
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/explanatory-reasoning/Reconciling two competing views on the process of generating explanations: Rational inference vs. intuitive biases./index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://srcd.secure-platform.com/site/solicitations/102002/sessiongallery/94496/application/11005">
+                            <i class="fa-solid fa-scroll"></i> Conference Presentation
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="2" data-categories="Spatial Language,Relational Reasoning,Spatial Reasoning,Mental Transformation" data-listing-date-sort="1614546000000" data-listing-file-modified-sort="1755943372780" data-listing-reading-time-sort="1.045">
+            <div class="project-content listing-pub-info">
+                <p>Turan, E., <b>Kobaş, M.</b>, &amp; Göksun, T. (2021). Spatial language and mental transformation in preschoolers: Does relational reasoning matter?. <i>Cognitive Development</i>, 57, 100980</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Spatial Language">
+                            Spatial Language
+                        </a></div>
+                    <div class="project-category"><a href="#category=Relational Reasoning">
+                            Relational Reasoning
+                        </a></div>
+                    <div class="project-category"><a href="#category=Spatial Reasoning">
+                            Spatial Reasoning
+                        </a></div>
+                    <div class="project-category"><a href="#category=Mental Transformation">
+                            Mental Transformation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/explanatory-reasoning/Spatial language development in preterm and fullterm infants/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1016/j.cogdev.2020.100980">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1016/j.cogdev.2020.100980">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+</ul>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="artificial-intelligience-machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="artificial-intelligience-machine-learning">Artificial Intelligience &amp; Machine Learning</h2>
+<div id="listing-ai-research" class="quarto-listing quarto-listing-container-custom">
+<div class="research project-list">
+<ul class="list">
+        <li class="project" data-index="0" data-categories="Persuasion,Artificial Intelligence,Machine Learning" data-listing-date-sort="1747774800000" data-listing-file-modified-sort="1755943186383" data-listing-reading-time-sort="0.83">
+            <div class="project-content listing-pub-info">
+                <p>Schoenegger, P., Salvi, F., Liu, J., Nan, X., Debnath, R., Fasolo, B., Leivada, E., Recchia, G., Günther, F., Zarifhonarvar, A., Kwon, J., Islam, Z. U., Dehnert, M., Lee, D. Y. H., Reinecke, M. G., Kamper, D. G., <b> Kobaş, M. </b> , Sandford, A., Kgomo, J., … Karger, E. (2025). Large Language Models Are More Persuasive Than Incentivized Human Persuaders. https://arxiv.org/abs/2505.09662</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Persuasion">
+                            Persuasion
+                        </a></div>
+                    <div class="project-category"><a href="#category=Artificial Intelligence">
+                            Artificial Intelligence
+                        </a></div>
+                    <div class="project-category"><a href="#category=Machine Learning">
+                            Machine Learning
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/ai-research/Large Language Models Are More Persuasive Than Incentivized Human Persuaders/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="1" data-categories="Causal Reasoning,Spatial Reasoning,Force Dynamics,Multimodal models,Artificial Intelligence,Machine Learning" data-listing-date-sort="1646082000000" data-listing-file-modified-sort="1755938747740" data-listing-reading-time-sort="0.825">
+            <div class="project-content listing-pub-info">
+                <p>Ateş, T., Ateşoğlu, Ş., Yiğit, Ç., Kesen, İ., <b> Kobaş, M. </b>, Erdem, E., Erdem, A., Göksun, T.,&amp; Yüret,D. (2022). CRAFT: A Benchmark for Causal Reasoning About Forces and interactions. 60th Annual Meeting of the Association for Computational Linguistics.</p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Causal Reasoning">
+                            Causal Reasoning
+                        </a></div>
+                    <div class="project-category"><a href="#category=Spatial Reasoning">
+                            Spatial Reasoning
+                        </a></div>
+                    <div class="project-category"><a href="#category=Force Dynamics">
+                            Force Dynamics
+                        </a></div>
+                    <div class="project-category"><a href="#category=Multimodal models">
+                            Multimodal models
+                        </a></div>
+                    <div class="project-category"><a href="#category=Artificial Intelligence">
+                            Artificial Intelligence
+                        </a></div>
+                    <div class="project-category"><a href="#category=Machine Learning">
+                            Machine Learning
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/ai-research/CRAFT: A Benchmark for Causal Reasoning About Forces and interactions/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://arxiv.org/pdf/2012.04293">
+                            <i class="fa-solid fa-scroll"></i> Article
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://sites.google.com/view/craft-benchmark">
+                            <i class="fa-solid fa-scroll"></i> Website
                         </a>
                     </li>
                 </ul>

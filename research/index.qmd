@@ -1,20 +1,40 @@
 ---
 title: "Research"
 listing:
-  - id: articles
-    contents: "articles/*/index.qmd"
+  - id: language-development
+    contents: "language-development/*/index.qmd"
     sort: "date desc"
     template: ../html/research/listing.ejs
-    categories: false
+    categories: true
+  - id: explanatory-reasoning
+    contents: "explanatory-reasoning/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
+  - id: ai-research
+    contents: "ai-research/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
 page-layout: full
 include-back-link: false
 toc-location: right
 ---
 
+## Language Development
 
-## Journal articles
-
-:::{#articles}
+::: {#language-development}
 :::
 
+
+## Explanatory Reasoning & Causal Inferences
+
+::: {#explanatory-reasoning}
+:::
+
+
+## Artificial Intelligience & Machine Learning
+
+::: {#ai-research}
+:::
 

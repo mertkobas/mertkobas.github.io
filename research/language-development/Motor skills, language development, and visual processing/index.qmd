@@ -1,23 +1,52 @@
 ---
 title: " Motor skills, language development, and visual processing in preterm and full-term infants "
-author: "Mert Kobaş"
-date: "2025-06-28"
+author: 
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: Koç University
+  - name: Erim Kızıldere
+    orcid: 0000-0002-8114-8482
+    affiliation: Koç University
+  - name: Işıl Doğan
+    affiliation: Koç University
+  - name: Aslı Aktan Erciyes
+    orcid: 0000-0002-6531-6140
+    affiliation: Kadir Has University
+  - name: Ece Demir-Lira
+    url: https://psychology.uiowa.edu/people/ece-demir-lira
+    orcid: 0000-0002-8506-0250
+    affiliation: University of Iowa
+  - name: İpek Akman
+    affiliation: Maltepe University
+  - name: Tilbe Göksun
+    url: https://tilbegoksunyoruk.com/
+    orcid: 0000-0002-0190-7988
+    affiliation: Koç University
+date: "2022-01-04"
 categories: 
+    - Visual Processing
+    - Sensorimotor Abilities
+    - Preterm Infants
+    - Word Comprehension
+    - Word Production
+    - Gesture
+    - Language Development
 pub-info:
   reference: >-
-    <b>Kobaş, M.</b>, Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., & Göksun, T. (2023).
-    Motor skills, language development, and visual processing in preterm and full-term infants. Current
-    Psychology, 1-13.
+    <b>Kobaş, M.</b>, Kızıldere, E., Doğan, I., Aktan-Erciyes, A., Demir-Lira, Ö., Akman, İ., &
+    Göksun, T. (2022).
+    Motor skills, language development, and visual processing in preterm and full-term infants.
+    <i>Current Psychology</i>, 1-13.
   links:
     - name: Article
       url: https://doi.org/10.1007/s12144-021-02658-8
       icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1007/s12144-021-02658-8
+      icon: ai ai-zotero
 doi: 10.1007/s12144-021-02658-8
 ---
-
-# Motor skills, language development, and visual processing in preterm and full-term infants
-
-## Abstract
 
 \
 Language development is intertwined with motor development. This study examined how visual processing might mediate the relation between language development and motor skills in preterm (PT, n = 34, Mean gestational age = 30 weeks) and full-term infants (FT, n = 35, Mean gestational age = 38.9 weeks) at 13 months of age. Infants’ visual processing, fine and gross motor skills were tested using the Mullen Scales of Early Learning. Parents reported on infants’ language skills (word comprehension and early communicative behavior), using the Turkish version of CDI (TCDI). Results showed that PT infants performed worse than their FT peers on gross motor skills and visual processing, but not on language. When controlling for age and neonatal condition (being preterm or not), visual processing mediated the relation between gross motor skills and word comprehension as well as early communicative behavior. However, for fine motor skills, visual processing mediated the relation between fine motor skills and early communicative behavior but not word comprehension. The relations between motor skills and visual processing were more robust for the PT group than the FT group. Following developmental cascades, these findings suggest that motor skills contribute to language development through visual processing. These relations are prominent for preterm infants who have delays in motor skills. PT children’s limited interactions with their environment due to problems in motor skills can be connected to delays in visual processing.

@@ -1,23 +1,38 @@
 ---
 title: " Fine motor abilities and parental input of spatial features predict object word comprehension of Turkish-learning children "
-author: "Mert Kobaş"
-date: "2025-06-28"
-categories: 
+author:
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: Koç University
+  - name: Aslı Aktan Erciyes
+    orcid: 0000-0002-6531-6140
+    affiliation: Kadir Has University
+  - name: Tilbe Göksun
+    url: https://tilbegoksunyoruk.com/
+    orcid: 0000-0002-0190-7988
+    affiliation: Koç University
+date: "2021-06-01"
+categories:
+    - Sensorimotor Abilities
+    - Parental Input
+    - Object Words
+    - Word Comprehension
+    - Language Development
 pub-info:
   reference: >-
-    <b>Kobaş, M.</b>, Aktan-Erciyes, A., & Göksun, T. (2021). Fine Motor Abilities and Parental Input of Spatial
-    Features Predict Object Word Comprehension of Turkish-Learning Children. Infant and Child
-    Development, 30(4), e2243.
+    <b>Kobaş, M.</b>, Aktan-Erciyes, A., & Göksun, T. (2021). Fine Motor Abilities and Parental
+    Input of Spatial Features Predict Object Word Comprehension of Turkish-Learning Children. 
+    <i>Infant and Child Development</i>, 30(4), e2243.
   links:
     - name: Article
       url:  https://doi.org/10.1002/icd.2243
       icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1002/icd.2243
+      icon: ai ai-zotero
 doi: 10.1002/icd.2243
 ---
-
-# Fine motor abilities and parental input of spatial features predict object word comprehension of Turkish-learning children
-
-## Abstract
 
 \
 Object word learning can be based on infant-related factors such as their manual actions and socio-linguistic factors such as parental input. Specific input for spatial features (i.e., size, shape, features of objects) can be related to object word comprehension in early vocabulary development. In a longitudinal study, we investigated whether fine motor abilities at 14 months and parental input for spatial features at 19 months predicted object word comprehension at 25 months. Twenty-seven Turkish-learning children were tested at three time points (Time 1: *M*~age~ = 14.4 months, Time 2: *M*~age~ = 18.6 months, Time 3: *M*~age~ = 25 months). We measured word comprehension through the parental report and fine motor abilities with Mullen at Time 1. We used a puzzle play session to assess parental input for spatial features at Time 2 and a standardized receptive vocabulary test at Time 3. We found that fine motor abilities were related to object word comprehension. However, parental input for spatial features at 19 months predicted object word comprehension at 25 months beyond fine motor abilities at 14 months. Early fine motor abilities and using different words for spatial features may foster infants' visual experiences in play and exploration episodes, leading to better object word learning.

@@ -1,0 +1,26 @@
+---
+title: " Reconciling two competing views on the process of generating explanations: Rational inference vs. intuitive biases "
+author:
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: New York University
+  - name: Andrei Cimpian
+    url: https://www.cimpianlab.com/
+    orcid: 0000-0002-3553-6097
+    affiliation: New York University
+date: " "
+categories:
+    - Explanation Generation
+    - Inherent bias
+pub-info:
+  reference: >-
+    <b>Kobaş, M.</b>, & Cimpian, A. (in preparation). Reconciling two competing
+    views on the process of generating explanations: Rational inference vs. intuitive biases.
+  links:
+    - name: Conference Presentation
+      url:  https://srcd.secure-platform.com/site/solicitations/102002/sessiongallery/94496/application/11005
+      icon: fa-solid fa-scroll
+---
+
+

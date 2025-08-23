@@ -1,0 +1,36 @@
+---
+title: " Historical and Empirical Evidence for an Inherence Bias in Scientific Explanation "
+author: 
+  - name: Zachary Horne
+    url: https://edwebprofiles.ed.ac.uk/profile/zachary-horne
+    orcid: 0000-0001-6629-2040
+    affiliation: New York University
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: New York University
+  - name: Andrei Cimpian
+    url: https://www.cimpianlab.com/
+    orcid: 0000-0002-3553-6097
+    affiliation: New York University
+
+date: " "
+categories: 
+    - inherence bias
+    - scientific explanations
+    - causal reasoning
+    - explanation generation
+
+pub-info:
+  reference: >-
+    Horne, Z., <b> Kobas, M. </b>, & Cimpian, A. (under review). Historical and Empirical
+    Evidence for an Inherence Bias in Scientific Explanation.
+    
+  links:
+    - name: Article
+      url: https://www.research.ed.ac.uk/en/projects/historical-and-empirical-evidence-for-an-inherence-bias-in-scient
+      icon: fa-solid fa-scroll
+---
+
+\
+Under Review

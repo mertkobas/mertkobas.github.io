@@ -16,11 +16,17 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: 
+      - html/ath.scss
+    grid: 
+      body-width: 900px
     toc: false
-    grid:
-      sidebar-width: 150px
-      margin-width: 200px
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai
     
 
 editor: visual

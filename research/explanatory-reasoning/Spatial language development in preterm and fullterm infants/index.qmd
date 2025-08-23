@@ -1,0 +1,46 @@
+---
+title: " Spatial language and mental transformation in preschoolers: Does relational reasoning
+matter?"
+author:
+  - name: Eylül Turan
+    affiliation: Ku Leuven 
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: Koç University
+  - name: Tilbe Göksun
+    url: https://tilbegoksunyoruk.com/
+    orcid: 0000-0002-0190-7988
+    affiliation: Koç University
+date: "2021-03-01"
+categories:
+    - Spatial Language
+    - Relational Reasoning
+    - Spatial Reasoning
+    - Mental Transformation
+pub-info:
+  reference: >-
+    Turan, E., <b>Kobaş, M.</b>, & Göksun, T. (2021). Spatial language and mental 
+    transformation in preschoolers: Does relational reasoning matter?. <i>Cognitive 
+    Development</i>, 57, 100980
+  links:
+    - name: Article
+      url: https://doi.org/10.1016/j.cogdev.2020.100980
+      icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1016/j.cogdev.2020.100980
+      icon: ai ai-zotero
+doi: 10.1016/j.cogdev.2020.100980
+---
+
+## Highlights
+
+-   We examined the link between preschoolers’ spatial language and their mental transformation abilities.
+
+-   Children's mental transformation performance was linked to their postposition production and comprehension.
+
+-   General relational reasoning performance also was associated with spatial reasoning.
+
+## Abstract
+
+There is a consensus that spatial language supports spatial reasoning. However, it remains a question of how specific spatial terms (e.g., prepositions) relate to distinct spatial skills that are critical for spatial cognition (e.g., mental transformation). We asked whether 1) preschoolers’ spatial language skills, particularly knowledge of postpositions, were linked to their mental transformation abilities, and 2) other cognitive factors such as reasoning about relations were associated with this link. Turkish-speaking preschool-aged children (Mage = 53 months) completed spatial language (i.e., postposition comprehension and production), spatial reasoning (i.e., mental transformation), relational reasoning, cognitive inhibition, and general vocabulary knowledge tasks. Results showed that older children performed better on all tasks, except the relational reasoning one. Children's mental transformation performance was associated with their postposition knowledge and relational reasoning performance, beyond general vocabulary knowledge and cognitive inhibition. These findings present evidence on the link between spatial language and spatial reasoning from Turkish-learning preschool-aged children and emphasize the role of other cognitive factors such as relational reasoning on mental transformation.

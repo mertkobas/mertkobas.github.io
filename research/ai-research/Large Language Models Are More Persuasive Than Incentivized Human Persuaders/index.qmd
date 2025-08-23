@@ -1,0 +1,109 @@
+---
+title: " Large Language Models Are More Persuasive Than Incentivized Human Persuaders "
+author: 
+  - name: Philipp Schoenegger
+    affiliation: London School of Economics and Political Science
+  - name: Francesco Salvi
+    affiliation: EPFL
+  - name: Jiacheng Liu
+    affiliation: Purdue University
+  - name: Xiaoli Nan
+    affiliation: Unversity of Maryland
+  - name: Ramit Debnath
+    affiliation: University of Cambridge
+  - name: Barbara Fasolo
+    affiliation: London School of Economics and Political Science
+  - name: Evelina Leivada
+    affiliation: Autonomous University of Barcelona
+  - name: Gabriel Recchia
+    affiliation: Modulo Research
+  - name: Fritz Günther
+    affiliation: Humboldt-Universität zu Berlin
+  - name: Ali Zarifhonarvar
+    affiliation: Indiana University
+  - name: Joe Kwon
+    affiliation: MIT
+  - name: Zahoor Ul Islam
+    affiliation: Umea University
+  - name: Marco Dehnert
+    affiliation: University of Arkansas
+  - name: Daryl Y. H. Lee
+    affiliation: University College London
+  - name: Madeline G. Reinecke
+    affiliation: University of Oxford
+  - name: David G. Kamper
+    affiliation: University of California, Los Angeles
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: New York University
+  - name: Adam Sandford
+    affiliation: University of Guelph-Humber
+  - name: Jonas Kgomo
+    affiliation: Equiano Institute
+  - name: Luke Hewitt
+    affiliation: Stanford University
+  - name: Shreya Kapoor
+    affiliation: Friedrich-Alexander-Universität Erlangen-Nürnberg
+  - name: Kerem Oktar
+    affiliation: Princeton University
+  - name: Eyup Engin Kucuk
+    affiliation: MIT
+  - name: Bo Feng
+    affiliation: Georgia Institute of Technology
+  - name: Cameron R. Jones
+    affiliation: UC San Diego
+  - name: Izzy Gainsburg
+    affiliation: Stanford University
+  - name: Sebastian Olschewski
+    affiliation: University of Basel
+  - name: Nora Heinzelmann
+    affiliation: Heidelberg University
+  - name: Francisco Cruz
+    affiliation: Universidade de Lisboa
+  - name: Ben M. Tappin
+    affiliation: London School of Economics and Political Science
+  - name: Tao Ma
+    affiliation: London School of Economics and Political Science
+  - name: Peter S. Park
+    affiliation: MIT
+  - name: Rayan Onyonka
+    affiliation: University of Leeds
+  - name: Arthur Hjorth
+    affiliation: Aarhus University
+  - name: Peter Slattery
+    affiliation: MIT
+  - name: Qingcheng Zeng
+    affiliation: Northwestern University
+  - name: Lennart Finke
+    affiliation: ETH Zurich
+  - name: Igor Grossmann
+    affiliation: University of Waterloo
+  - name: Alessandro Salatiello
+    affiliation: University of Tübingen
+  - name: Ezra Karger
+date: "2025-05-21"
+categories: 
+  -  Persuasion
+  -  Artificial Intelligence
+  -  Machine Learning  
+
+pub-info:
+  reference: >-
+    Schoenegger, P., Salvi, F., Liu, J., Nan, X., Debnath, R., Fasolo, B., Leivada, E., Recchia, G., Günther,
+    F., Zarifhonarvar, A., Kwon, J., Islam, Z. U., Dehnert, M., Lee, D. Y. H., Reinecke, M. G.,
+    Kamper, D. G., <b> Kobaş, M. </b> , Sandford, A., Kgomo, J., … Karger, E. (2025). Large Language
+    Models Are More Persuasive Than Incentivized Human Persuaders. https://arxiv.org/abs/2505.09662
+links:
+    - name: Article
+      url: https://arxiv.org/abs/2505.09662
+      icon: fa-solid fa-scroll
+    - name: Website
+      url: https://sites.google.com/view/ai-persuasion/home?authuser=0
+      icon: fa-solid fa-scroll
+---
+
+\
+We directly compare the persuasion capabilities of a frontier large language model (LLM; Claude Sonnet 3.5) against incentivized human persuaders in an interactive, real-time conversational quiz setting. In this preregistered, large-scale incentivized experiment, participants (quiz takers) completed an online quiz where persuaders (either humans or LLMs) attempted to persuade quiz takers toward correct or incorrect answers. We find that LLM persuaders achieved significantly higher compliance with their directional persuasion attempts than incentivized human persuaders, demonstrating superior persuasive capabilities in both truthful (toward correct answers) and deceptive (toward incorrect answers) contexts. We also find that LLM persuaders significantly increased quiz takers' accuracy, leading to higher earnings, when steering quiz takers toward correct answers, and significantly decreased their accuracy, leading to lower earnings, when steering them toward incorrect answers. Overall, our findings suggest that AI's persuasion capabilities already exceed those of humans that have real-money bonuses tied to performance. Our findings of increasingly capable AI persuaders thus underscore the urgency of emerging alignment and governance frameworks.
+
+[Click here to read!](https://arxiv.org/abs/2505.09662)

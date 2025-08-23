@@ -1,0 +1,54 @@
+---
+title: "Early parental multimodal input is differentially associated with later vocabulary
+knowledge for preterm and full-term infants"
+author: 
+  - name: Işıl Doğan
+    affiliation: Koç University
+  - name: Erim Kızıldere
+    orcid: 0000-0002-8114-8482
+    affiliation: Koç University
+  - name: Mert Kobaş
+    url: https://mertkobas.github.io/
+    orcid: 0000-0002-9669-9033
+    affiliation: Koç University
+  - name: Aslı Aktan Erciyes
+    orcid: 0000-0002-6531-6140
+    affiliation: Kadir Has University
+  - name: Ece Demir-Lira
+    url: https://psychology.uiowa.edu/people/ece-demir-lira
+    orcid: 0000-0002-8506-0250
+    affiliation: University of Iowa
+  - name: İpek Akman
+    affiliation: Maltepe University
+  - name: Tilbe Göksun
+    url: https://tilbegoksunyoruk.com/
+    orcid: 0000-0002-0190-7988
+    affiliation: Koç University
+date: "2025-07-15"
+categories: 
+    - Multimodal Input
+    - Preterm Infants
+    - Word Comprehension
+    - Word Production
+    - Gesture
+    - Language Development
+pub-info:
+  reference: >-
+     Doğan, I., Kızıldere, E., <b>Kobaş, M.</b>,Aktan-Erciyes, A., Demir-Lira, Ö. E., Akman, 
+     ., & Göksun, T. (2025). Early parental multimodal input is differentially associated with
+     later vocabulary knowledge for preterm and full-term infants. <i>Language Learning and
+     Development</i>, 1-27.
+  links:
+    - name: Article
+      url: https://doi.org/10.1080/15475441.2025.2529892
+      icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1080/15475441.2025.2529892
+      icon: ai ai-zotero
+doi: 10.1080/15475441.2025.2529892
+---
+
+\
+This study examined whether (1) parents’ language input and its modality differed in Turkish-learning preterm (PT) (\<37 weeks of gestation) and full-term infants (FT), and (2) the type of language input (i.e. verbal and multimodal) had differential concurrent and longitudinal effects on PT and FT infants’ vocabulary development. At Time 1 (M~age~ = 14 months, N = 73, 36 PT) and Time 2 (M~age~ = 20.1 months, N = 61, 27 PT), PT infants’ parents produced fewer frequent multimodal input (i.e., co-speech deictic gestures) than FT infants’ parents. The frequency of verbal input (i.e., word count) between groups differed only at Time 1. Parents’ verbal input was concurrently associated with infants’ receptive vocabulary at 14 months, yet parents’ multimodal input was only linked to PT infants’ receptive vocabulary. At 20 months, parents’ verbal input was not related to expressive vocabulary in either group; however, parents’ multimodal input was again associated with PT infants’ expressive vocabulary scores. Parents’ multimodal input at 14 months predicted infants’ expressive vocabulary scores at 20 months, only for the PT group. These findings suggest that the variability of multimodal input infants receives from their parents and the contribution of such input to vocabulary development change as a function of infants’ neonatal status.
+
+[Click here to read this article!](https://www.tandfonline.com/doi/full/10.1080/15475441.2025.2529892)

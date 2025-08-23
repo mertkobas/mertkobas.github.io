@@ -17,9 +17,15 @@
   {
     "listing": "/research/index.html",
     "items": [
-      "/research/articles/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html",
-      "/research/articles/Motor skills, language development, and visual processing/index.html",
-      "/research/articles/Spatial language development in preterm and full-term infants/index.html"
+      "/research/language-development/Spatial language development in preterm and full-term infants/index.html",
+      "/research/language-development/Early parental multimodal input is differentially associated with later vocabulary knowledge for preterm and full-term infants/index.html",
+      "/research/language-development/Motor skills, language development, and visual processing/index.html",
+      "/research/language-development/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html",
+      "/research/explanatory-reasoning/Historical and Empirical Evidence for an Inherence Bias in Scientific Explanation/index.html",
+      "/research/explanatory-reasoning/Reconciling two competing views on the process of generating explanations: Rational inference vs. intuitive biases./index.html",
+      "/research/explanatory-reasoning/Spatial language development in preterm and fullterm infants/index.html",
+      "/research/ai-research/Large Language Models Are More Persuasive Than Incentivized Human Persuaders/index.html",
+      "/research/ai-research/CRAFT: A Benchmark for Causal Reasoning About Forces and interactions/index.html"
     ]
   }
 ]

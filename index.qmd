@@ -29,6 +29,12 @@ about:
     - icon: github
       text: Github
       href: "https://github.com/mertkobas"
+
+    - text: "{{< fa brands bluesky >}} Bluesky"
+      url: "https://bsky.app/profile/mkobas.bsky.social"
+      
+    - text: "{{< fa brands orcid >}} Orcid"
+      url: "https://orcid.org/0000-0002-9669-9033"
 ---
 
 Hi, I’m Mert!\
