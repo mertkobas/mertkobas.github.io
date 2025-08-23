@@ -10,16 +10,16 @@ listing:
     contents: "explanatory-reasoning/*/index.qmd"
     sort: "date desc"
     template: ../html/research/listing.ejs
-    categories: true
   - id: ai-research
     contents: "ai-research/*/index.qmd"
     sort: "date desc"
     template: ../html/research/listing.ejs
-    categories: true
 page-layout: full
 include-back-link: false
 toc-location: right
 ---
+
+My research program investigates (i) the developmental processes behind early language and conceptual development, (ii) how children and adults generate explanations to interpret their social and physical environments and to predict and influence the thoughts and behaviors of themselves and others, under the shadow of cognitive limitations, (iii) how insights from these cognitive developmental processes can guide the design of advanced AI systems that reason more effectively and reliably about both physical and social worlds, and (iv) the role of AI as a mediating external communication tool, influencing human reasoning and its developmental trajectories.
 
 ## Language Development
 
