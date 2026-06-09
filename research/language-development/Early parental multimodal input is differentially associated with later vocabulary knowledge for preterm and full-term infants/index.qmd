@@ -48,6 +48,9 @@ pub-info:
 doi: 10.1080/15475441.2025.2529892
 ---
 
+**In brief:** Following Turkish preterm and full-term infants, we found that preterm infants' parents used fewer co-speech gestures, and that this multimodal input mattered more for preterm infants — their parents' early gesture predicted these infants' later expressive vocabulary specifically.
+
+
 \
 This study examined whether (1) parents’ language input and its modality differed in Turkish-learning preterm (PT) (\<37 weeks of gestation) and full-term infants (FT), and (2) the type of language input (i.e. verbal and multimodal) had differential concurrent and longitudinal effects on PT and FT infants’ vocabulary development. At Time 1 (M~age~ = 14 months, N = 73, 36 PT) and Time 2 (M~age~ = 20.1 months, N = 61, 27 PT), PT infants’ parents produced fewer frequent multimodal input (i.e., co-speech deictic gestures) than FT infants’ parents. The frequency of verbal input (i.e., word count) between groups differed only at Time 1. Parents’ verbal input was concurrently associated with infants’ receptive vocabulary at 14 months, yet parents’ multimodal input was only linked to PT infants’ receptive vocabulary. At 20 months, parents’ verbal input was not related to expressive vocabulary in either group; however, parents’ multimodal input was again associated with PT infants’ expressive vocabulary scores. Parents’ multimodal input at 14 months predicted infants’ expressive vocabulary scores at 20 months, only for the PT group. These findings suggest that the variability of multimodal input infants receives from their parents and the contribution of such input to vocabulary development change as a function of infants’ neonatal status.
 

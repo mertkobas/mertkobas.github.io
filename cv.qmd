@@ -1,6 +1,6 @@
 ---
-title: "cv"
+title: "CV"
 format: html
 ---
 
-![](MertCV.pdf){width="100%" height="1000px"}
+![](MertCv.pdf){width="100%" height="1000px"}

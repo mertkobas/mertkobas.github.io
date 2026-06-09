@@ -1,0 +1,10 @@
+# Options applied to every blog post
+title-block-banner: "#8a2b3a"
+toc: true
+toc-location: right
+
+author: "Mert Kobaş"
+
+format:
+  html:
+    date-format: "MMMM D, YYYY"

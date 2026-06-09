@@ -33,6 +33,9 @@ pub-info:
 doi: 10.1016/j.cogdev.2020.100980
 ---
 
+**In brief:** In Turkish-speaking preschoolers, knowledge of spatial terms (postpositions) and general relational reasoning each predicted children's ability to mentally transform shapes — evidence that spatial language and spatial reasoning are linked beyond general vocabulary.
+
+
 ## Highlights
 
 -   We examined the link between preschoolers’ spatial language and their mental transformation abilities.

@@ -1,5 +1,5 @@
 ---
-title: " Historical and Empirical Evidence for an Inherence Bias in Scientific Explanation "
+title: "Historical and experimental evidence that inherent properties are overweighted in early scientific explanation"
 author: 
   - name: Zachary Horne
     url: https://edwebprofiles.ed.ac.uk/profile/zachary-horne
@@ -14,22 +14,27 @@ author:
     orcid: 0000-0002-3553-6097
     affiliation: New York University
 
-date: " "
-categories: 
-    - inherence bias
-    - scientific explanations
-    - causal reasoning
-    - explanation generation
+date: "2025-09-19"
+categories:
+    - Inherence Bias
+    - Scientific Explanations
+    - Causal Reasoning
+    - Explanation Generation
 
 pub-info:
   reference: >-
-    Horne, Z., <b> Kobas, M. </b>, & Cimpian, A. (2025). Historical and Empirical
-    Evidence for an Inherence Bias in Scientific Explanation. Proceedings of the National Academy of Sciences, 122(38), e2424725122.
-    
+    Horne, Z., <b> Kobaş, M. </b>, & Cimpian, A. (2025). Historical and experimental
+    evidence that inherent properties are overweighted in early scientific explanation. <i>Proceedings of the National Academy of Sciences</i>, 122(38), e2424725122.
+
   links:
     - name: Article
       url: https://www.pnas.org/doi/abs/10.1073/pnas.2424725122
       icon: fa-solid fa-scroll
+doi: 10.1073/pnas.2424725122
 ---
+
+**In brief:** Even expert scientists tend to first explain unfamiliar phenomena through objects' *inherent* properties rather than context or relations. Combining a historical analysis of major transitions in Western science with nine experiments — including practicing scientists at top departments — we show this "inherence bias" shapes early theory-building and traces back to basic limits on attention and memory.
+
+## Abstract
 
 Scientific explanation is one of the most sophisticated forms of human reasoning. Nevertheless, here we hypothesize that scientific explanation is susceptible to some of the same biases that influence everyday thinking—particularly during the initial stages of theory building, when scientists are first grappling with complex phenomena and are thus more likely to rely on explanatory “guesses.” Specifically, we investigated whether scientific explanation exhibits an inherence bias—a tendency to explain phenomena through inherent or intrinsic features rather than extrinsic factors such as context or relations. Consistent with this hypothesis, a comprehensive analysis of major explanatory transitions across the history of Western science revealed that initial scientific explanations systematically favored inherent properties, while subsequent explanations incorporated extrinsic factors more consistently. Seven experiments with lay participants (both adults and children; N 1,673) and two experiments with practicing scientists from top departments worldwide (N 275) provided converging evidence for this bias and identified the psychological mechanisms involved. When explaining unfamiliar phenomena, even leading scientists showed a robust tendency to overweight inherent properties and underweight extrinsic factors relative to established scientific understanding. This bias appears rooted in basic cognitive constraints on attention and memory that excessively narrow the space of hypotheses initially considered. These findings advance our understanding of both the psychology of explanation and the development of scientific knowledge, while suggesting specific ways to improve scientific training and education.

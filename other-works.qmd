@@ -1,0 +1,41 @@
+---
+title: "Other Works"
+---
+
+Beyond the lab, I make and explore things that don't fit neatly on a CV. A few of them live here.
+
+## Beyond research
+
+I build and tinker with data analysis, machine learning, and AI side projects. A few of them live on my [GitHub](https://github.com/mertkobas).
+
+## Music
+
+### Sepya
+
+*Sepya* was a band I played in. Here's some of our music — give it a listen.
+
+::: {style="max-width: 560px; margin: 1.5rem 0;"}
+<iframe style="border-radius: 12px; display: block;"
+  src="https://open.spotify.com/embed/artist/5DSL357MhHViNdLNC1nvvj?utm_source=generator"
+  width="100%" height="352" frameborder="0"
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"></iframe>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; margin-top: 1.25rem; border-radius: 12px; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/ZQN185PVE7Q"
+    title="Sepya — Ne Karanlık" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen loading="lazy"></iframe>
+</div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; margin-top: 1.25rem; border-radius: 12px; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/MsbsUF6h5Yo"
+    title="Sepya on YouTube" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen loading="lazy"></iframe>
+</div>
+:::
+
+[Listen to Sepya on Spotify →](https://open.spotify.com/artist/5DSL357MhHViNdLNC1nvvj)

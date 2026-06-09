@@ -1,0 +1,30 @@
+---
+title: "Before the first word"
+description: "Why I think babies' hands are part of how they learn to talk."
+date: "2026-06-08"
+categories: [language development, research notes]
+---
+
+We tend to treat language as something that happens in the ears and the mouth —
+sounds going in, words coming out. But a lot of my research keeps pointing
+somewhere less obvious: the hands.
+
+Long before infants say their first word, they are busy reaching, grasping,
+turning objects over, and bringing them close to look at. Each of those small
+actions is also a tiny lesson. A baby who can rotate a cup in their hands gets to
+see its handle, its rim, the way the inside differs from the outside. That richer
+visual experience seems to feed forward into language — children who explore
+objects more, and whose parents narrate that exploration ("look, it's *round*,
+it goes *on top*"), tend to understand more words a year later.
+
+What I find compelling is that these effects are strongest exactly where you'd
+expect the system to be under the most strain. In our work with infants born
+preterm, the link between early motor skill and later vocabulary runs through
+visual processing — as if the usual developmental cascade becomes more visible
+when one part of it is delayed. Development, in other words, is less a set of
+separate skills switching on in sequence and more a chain of small advantages,
+each making the next one possible.
+
+This is the kind of thing I'll write about here: half-formed ideas from the lab,
+papers I'm reading, and the occasional detour into how all of this connects to
+reasoning and AI. Thanks for reading.

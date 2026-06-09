@@ -1,0 +1,79 @@
+---
+title: "Teaching"
+---
+
+I teach statistics for psychology students and have supported a range of courses
+in psychology and cognitive science as a teaching assistant.
+
+## As instructor
+
+```{=html}
+<div class="teaching">
+  <div class="course-entry">
+    <div class="body">
+      <div class="course-title">Statistics for the Behavioral Sciences</div>
+      <div class="course-details">PSYCH-UA.10 · Department of Psychology, New York University</div>
+      <div class="course-description">
+        An introduction to statistics for psychology majors: evaluating data from
+        different kinds of studies, statistical prediction, and applying statistical
+        reasoning to decision making. Students learn to analyze data in R and write
+        up results in APA format, working through data description, variability,
+        significance tests, confidence intervals, tests of differences of means,
+        correlation, linear regression, and nonparametric methods.
+      </div>
+      <div class="course-role">Role: Instructor</div>
+      <ul class="course-semesters">
+        <li class="no-link">Summer 2025</li>
+        <li class="no-link">Summer 2026</li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
+
+## Teaching experience
+
+```{=html}
+<ul class="taship">
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Master's Statistics</span><span class="ta-meta">PSYCH-GA.2016 · Prof. Elizabeth A. Bauer</span></div>
+    <div class="ta-term">Spring 2026</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Master's Statistics</span><span class="ta-meta">PSYCH-GA.2016 · Prof. Elizabeth A. Bauer</span></div>
+    <div class="ta-term">Fall 2025</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Instructor</span> · <span class="ta-course">Statistics for the Behavioral Sciences</span><span class="ta-meta">PSYCH-UA.10 · New York University</span></div>
+    <div class="ta-term">Summer 2025</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Master's Statistics</span><span class="ta-meta">PSYCH-GA.2016 · Prof. Elizabeth A. Bauer</span></div>
+    <div class="ta-term">Spring 2025</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Master's Statistics</span><span class="ta-meta">PSYCH-GA.2016 · Dr. Aspen Yoo</span></div>
+    <div class="ta-term">Fall 2024</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Master's Statistics</span><span class="ta-meta">PSYCH-GA.2016 · Prof. Elizabeth A. Bauer</span></div>
+    <div class="ta-term">Spring 2024</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Research Methods in Psychology</span><span class="ta-meta">PSYC 301 · Prof. Tilbe Göksun · Koç University</span></div>
+    <div class="ta-term">Spring 2020</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Lifespan Development</span><span class="ta-meta">PSYC 206 · Prof. Tilbe Göksun · Koç University</span></div>
+    <div class="ta-term">Fall 2019</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Cognitive Development</span><span class="ta-meta">PSYC 445 · Prof. Tilbe Göksun · Koç University</span></div>
+    <div class="ta-term">Spring 2019</div>
+  </li>
+  <li>
+    <div><span class="ta-role">Teaching Assistant</span> · <span class="ta-course">Issues in Psychology</span><span class="ta-meta">PSYC 210 · Prof. Fuat Balcı · Koç University</span></div>
+    <div class="ta-term">Fall 2018</div>
+  </li>
+</ul>
+```

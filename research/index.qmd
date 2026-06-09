@@ -33,7 +33,7 @@ My research program investigates (i) the developmental processes behind early la
 :::
 
 
-## Artificial Intelligience & Machine Learning
+## Artificial Intelligence & Machine Learning
 
 ::: {#ai-research}
 :::

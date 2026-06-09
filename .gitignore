@@ -46,4 +46,16 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# Quarto
 /.quarto/
+
+# OS / editor junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp

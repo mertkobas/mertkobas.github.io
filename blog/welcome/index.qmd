@@ -1,0 +1,20 @@
+---
+title: "Welcome"
+description: "A short note on what this blog is for."
+date: "2026-06-08"
+categories: [notes]
+---
+
+I've added a blog to this site as a place to write — short notes on research I'm
+reading, ideas from the lab, thoughts on language, cognition, and AI, and the
+occasional aside about everything else.
+
+Nothing fancy to start. More soon.
+
+::: {.callout-tip collapse="true"}
+## How I add a new post (note to self)
+
+Create a folder under `blog/` (for example `blog/my-post/`) with an `index.qmd`
+inside. Give it a `title`, a `date`, an optional `description`, and one or more
+`categories`. Re-render the site and it shows up here automatically, newest first.
+:::

@@ -27,5 +27,12 @@
       "/research/ai-research/Large Language Models Are More Persuasive Than Incentivized Human Persuaders/index.html",
       "/research/ai-research/CRAFT: A Benchmark for Causal Reasoning About Forces and interactions/index.html"
     ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/before-the-first-word/index.html",
+      "/blog/welcome/index.html"
+    ]
   }
 ]

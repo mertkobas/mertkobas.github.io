@@ -4,6 +4,14 @@ project:
 
 website:
   title: "Mert Kobaş"
+  description: "Mert Kobaş — Psychology Ph.D. candidate at NYU studying language development, explanatory reasoning, and reasoning in large language models."
+  site-url: https://mertkobas.github.io
+  favicon: files/favicon-512.png
+  image: profile.png
+  open-graph: true
+  twitter-card:
+    creator: "@mertkobas"
+    card-style: summary
   navbar:
     pinned: true
     right:
@@ -11,8 +19,33 @@ website:
         file: index.qmd
       - text: "Research"
         file: research/index.qmd
+      - text: "Teaching"
+        file: teaching.qmd
+      - text: "Blog"
+        file: blog/index.qmd
+      - text: "Other Works"
+        file: other-works.qmd
       - text: "CV"
         file: MertCv.pdf
+  page-footer:
+    left: "© 2026 Mert Kobaş"
+    center: "Built with [Quarto](https://quarto.org)"
+    right:
+      - icon: envelope
+        href: "mailto:mertkobas@nyu.edu"
+        aria-label: Email
+      - icon: mortarboard
+        href: "https://scholar.google.com/citations?user=DTqSxk4AAAAJ&hl=en"
+        aria-label: Google Scholar
+      - icon: github
+        href: "https://github.com/mertkobas"
+        aria-label: GitHub
+      - icon: twitter
+        href: "https://x.com/mertkobas"
+        aria-label: Twitter
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/mertkobas"
+        aria-label: LinkedIn
 
 format:
   html:

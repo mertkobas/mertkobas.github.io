@@ -12,7 +12,7 @@ author:
 date: " "
 categories:
     - Explanation Generation
-    - Inherent bias
+    - Inherence Bias
 pub-info:
   reference: >-
     <b>Kobaş, M.</b>, & Cimpian, A. (in preparation). Reconciling two competing
@@ -24,3 +24,4 @@ pub-info:
 ---
 
 
+**In brief:** How do people actually generate explanations — through careful, rational inference that weighs evidence, or through fast intuitive biases (like the tendency to favor an object's inherent properties)? These two accounts are often treated as competing. This project develops a framework that reconciles them, clarifying when and why each process drives the explanations people produce.

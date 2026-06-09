@@ -20,13 +20,13 @@ $black:    #000000 !default;
 
 $blue:    #2780e3 !default;
 $indigo:  #6610f2 !default;
-$purple:  #170C3A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$light-orange:  #FB9E07 !default;
+$purple:  #23272e !default;        // deep ink — navbar & footer
+$pink:    #8a2b3a !default;        // claret — primary accent
+$red:     #8a2b3a !default;        // claret — section accents & banners
+$orange:  #8a2b3a !default;        // claret — links
+$light-orange:  #c79a4b !default;  // muted gold — accents on dark surfaces
 $yellow:  #F6D645 !default;
-$green:   #118230 !default;
+$green:   #1d7a4d !default;
 $teal:    #20c997 !default;
 $cyan:    #3093CF !default;
 
@@ -37,53 +37,53 @@ $info:      $cyan !default;
 $warning:   $orange !default;
 $danger:    $red !default;
 $light:     $gray-400 !default;
-$dark:      $black !default;
+$dark:      $purple !default;
 
 // $min-contrast-ratio: 2.6 !default;
 
 // Fonts
-
-
 $font-family-sans-serif: "Libre Franklin" !default;
 
 $headings-font-family: "Jost" !default;
 $headings-font-weight: 600 !default;
+$headings-line-height: 1.2 !default;
 
 $navbar-font-family: "Jost" !default;
 $toc-font-family: "Jost" !default;
 $footer-font-family: "Jost" !default;
 
-// $font-size-base: 1.1rem !default; // Assumes the browser default, typically `16px`
-// $font-size-sm: $font-size-base * .875 !default;
+$font-size-base: 1.05rem !default;  // ~16.8px on a 16px root
+$line-height-base: 1.65 !default;
 
 
 // Body
-$body-color: $gray-900 !default;
+$body-color: #23272e !default;
+$body-bg: #fcfbf9 !default;          // soft warm white
 
 // Links
 $link-color: $orange !default;
 $link-decoration: none !default;
-$link-hover-color: $red !default;
+$link-hover-color: #6d1f2c !default; // darker claret
 $link-hover-decoration: underline !default;
 
 // Inline code
-$code-bg: $gray-200 !default;
-$code-color: $gray-900 !default;
+$code-bg: #f3f0ec !default;
+$code-color: #8a2b3a !default;
 
 // Code copy
 $btn-code-copy-color-active: $orange !default;
 
 // TOC
 $toc-color: $orange;
-$toc-font-size: 1em;
+$toc-font-size: 0.95em;
 
 // Navbar
 $navbar-bg: $purple !default;
-$navbar-fg: $white !default;
+$navbar-fg: #ece9e4 !default;
 $navbar-hl: $light-orange !default;
 
 // Footer
-$footer-bg: $gray-900 !default;
+$footer-bg: $purple !default;
 $footer-fg: $gray-300 !default;
 
 /*-- scss:rules --*/
@@ -666,5 +666,175 @@ pre.text, pre.sourceCode, .cell-output pre {
 
     @media (max-width: map-get($grid-breakpoints, md)) {
         left: 0;
+    }
+}
+
+
+// ============================================================
+//  Professional polish
+// ============================================================
+
+body {
+    line-height: $line-height-base;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    transition: color 0.15s ease;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: -0.01em;
+}
+
+// Generous breathing room above section headings
+.content h2 {
+    margin-top: 1.8em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid $gray-200;
+}
+
+// Navbar
+.navbar {
+    border-bottom: 3px solid $light-orange;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: color 0.15s ease;
+}
+
+// ---- Home (about) page ----
+.about-image {
+    border-radius: 14px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+}
+
+.about-links {
+    .about-link {
+        border: 1px solid $gray-300;
+        border-radius: 999px;
+        padding: 0.35em 0.95em;
+        margin: 0.25em 0.35em 0.25em 0;
+        color: $body-color;
+        transition: all 0.15s ease;
+
+        &:hover {
+            border-color: $primary;
+            color: $primary;
+            background-color: shift-color($primary, -93%);
+            text-decoration: none;
+        }
+
+        i, .bi {
+            color: $primary;
+        }
+    }
+}
+
+// ---- Research listing cards ----
+.project-list ul li.project {
+    background-color: #ffffff;
+    border: 1px solid $gray-200;
+    border-left: 4px solid $primary;
+    border-radius: 8px;
+    padding: 1.15em 1.35em 0.95em;
+    margin-bottom: 1.6em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.09);
+        transform: translateY(-2px);
+    }
+}
+
+.project-list .project-details-listing {
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: shift-color($primary, -94%);
+
+    .details {
+        border-radius: 0;
+    }
+}
+
+// ---- Research detail page ----
+.quarto-title-block .project-details {
+    border-radius: 6px;
+    border-left: 4px solid $primary;
+}
+
+// Softer, rounded code blocks
+pre.sourceCode, .cell-output pre, div.sourceCode {
+    border-radius: 6px;
+}
+
+// Tables: cleaner, more legible
+.table {
+    font-size: 0.95em;
+}
+
+// Footer links a touch calmer
+.nav-footer a:hover {
+    color: $white;
+}
+
+// ---- Teaching: chronological list ----
+.taship {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2em;
+    font-family: $headings-font-family;
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1.5em;
+        padding: 0.75em 0;
+        border-bottom: 1px solid $gray-200;
+    }
+
+    li:last-child {
+        border-bottom: 0;
+    }
+
+    .ta-role {
+        color: $primary;
+        font-weight: 500;
+    }
+
+    .ta-course {
+        font-weight: 500;
+    }
+
+    .ta-meta {
+        display: block;
+        font-weight: 300;
+        font-size: 0.85em;
+        color: $gray-600;
+        margin-top: 0.15em;
+    }
+
+    .ta-term {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        font-weight: 300;
+        color: $gray-700;
+    }
+
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+        li {
+            flex-direction: column;
+            gap: 0.2em;
+        }
+        .ta-term {
+            font-size: 0.9em;
+        }
     }
 }
