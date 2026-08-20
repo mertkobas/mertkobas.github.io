@@ -34,6 +34,10 @@ pub-info:
     - name: Add to Zotero
       url: https://www.zotero.org/save?type=doi&q=10.1016/j.jecp.2025.106264
       icon: ai ai-zotero
+    - name: PDF
+      url: Kobas-2025-spatial-language-preterm-fullterm.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
 doi: 10.1016/j.jecp.2025.106264
 ---
 

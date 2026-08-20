@@ -31,6 +31,10 @@ pub-info:
     - name: Add to Zotero
       url: https://www.zotero.org/save?type=doi&q=10.1002/icd.2243
       icon: ai ai-zotero
+    - name: PDF
+      url: Kobas-2021-fine-motor-object-word-comprehension.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
 doi: 10.1002/icd.2243
 ---
 

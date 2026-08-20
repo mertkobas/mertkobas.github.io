@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Mert Kobaş"
-  description: "Mert Kobaş — Psychology Ph.D. candidate at NYU studying language development, explanatory reasoning, and reasoning in large language models."
+  description: "Mert Kobaş — postdoctoral researcher at Rutgers University studying explanation, expectation violation, and learning across development, as well as reasoning in large language models."
   site-url: https://mertkobas.github.io
   favicon: files/favicon-512.png
   image: profile.png

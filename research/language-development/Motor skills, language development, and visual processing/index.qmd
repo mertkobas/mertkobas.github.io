@@ -45,6 +45,10 @@ pub-info:
     - name: Add to Zotero
       url: https://www.zotero.org/save?type=doi&q=10.1007/s12144-021-02658-8
       icon: ai ai-zotero
+    - name: PDF
+      url: Kobas-2022-motor-language-visual-processing.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
 doi: 10.1007/s12144-021-02658-8
 ---
 

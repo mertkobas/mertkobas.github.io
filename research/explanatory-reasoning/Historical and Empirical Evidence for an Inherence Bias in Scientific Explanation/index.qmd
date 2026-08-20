@@ -23,13 +23,22 @@ categories:
 
 pub-info:
   reference: >-
-    Horne, Z., <b> Kobaş, M. </b>, & Cimpian, A. (2025). Historical and experimental
+    Horne, Z., <b>Kobaş, M.</b>, & Cimpian, A. (2025). Historical and experimental
     evidence that inherent properties are overweighted in early scientific explanation. <i>Proceedings of the National Academy of Sciences</i>, 122(38), e2424725122.
 
   links:
     - name: Article
-      url: https://www.pnas.org/doi/abs/10.1073/pnas.2424725122
+      url: https://doi.org/10.1073/pnas.2424725122
       icon: fa-solid fa-scroll
+    - name: PubMed Central
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12478141/
+      icon: fa-solid fa-book-open
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1073/pnas.2424725122
+      icon: ai ai-zotero
+  extra: >-
+    Open access — free to read at PNAS and deposited in PubMed Central
+    (PMID 40971388; PMCID PMC12478141).
 doi: 10.1073/pnas.2424725122
 ---
 

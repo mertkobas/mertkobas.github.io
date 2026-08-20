@@ -92,15 +92,20 @@ pub-info:
   reference: >-
     Schoenegger, P., Salvi, F., Liu, J., Nan, X., Debnath, R., Fasolo, B., Leivada, E., Recchia, G., Günther,
     F., Zarifhonarvar, A., Kwon, J., Islam, Z. U., Dehnert, M., Lee, D. Y. H., Reinecke, M. G.,
-    Kamper, D. G., <b> Kobaş, M. </b> , Sandford, A., Kgomo, J., … Karger, E. (2025). Large Language
-    Models Are More Persuasive Than Incentivized Human Persuaders. https://arxiv.org/abs/2505.09662
-links:
-    - name: Article
+    Kamper, D. G., <b>Kobaş, M.</b>, Sandford, A., Kgomo, J., … Karger, E. (under review). Large
+    language models are more persuasive than incentivized human persuaders.
+  links:
+    - name: Preprint
       url: https://arxiv.org/abs/2505.09662
       icon: fa-solid fa-scroll
+    - name: PDF
+      url: https://arxiv.org/pdf/2505.09662
+      icon: fa-solid fa-file-pdf
     - name: Website
       url: https://sites.google.com/view/ai-persuasion/home?authuser=0
       icon: fa-solid fa-scroll
+  extra: >-
+    Preprint: arXiv:2505.09662, posted 14 May 2025.
 ---
 
 **In brief:** A large, preregistered experiment pitting a frontier LLM (Claude 3.5 Sonnet) against financially incentivized human persuaders in a live conversational quiz. The AI was more persuasive than humans at steering people toward both correct and incorrect answers — underscoring the urgency of AI alignment and governance.

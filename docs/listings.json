@@ -1,20 +1,5 @@
 [
   {
-    "listing": "/index_old.html",
-    "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/posts/Spatial language development in preterm and full-term infants/index.html",
-      "/posts/Motor skills, language development, and visual processing/index.html",
-      "/posts/Fine motor abilities and parental input of spatial features predict object word comprehension/index.html"
-    ]
-  },
-  {
     "listing": "/research/index.html",
     "items": [
       "/research/language-development/Spatial language development in preterm and full-term infants/index.html",
@@ -31,7 +16,6 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/before-the-first-word/index.html",
       "/blog/welcome/index.html"
     ]
   }

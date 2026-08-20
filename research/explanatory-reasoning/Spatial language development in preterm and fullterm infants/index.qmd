@@ -30,6 +30,10 @@ pub-info:
     - name: Add to Zotero
       url: https://www.zotero.org/save?type=doi&q=10.1016/j.cogdev.2020.100980
       icon: ai ai-zotero
+    - name: PDF
+      url: Turan-2021-spatial-language-mental-transformation.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
 doi: 10.1016/j.cogdev.2020.100980
 ---
 

@@ -39,16 +39,29 @@ categories:
   -  Machine Learning
 pub-info:
   reference: >-
-    Ateş, T., Ateşoğlu, Ş., Yiğit, Ç., Kesen, İ., <b> Kobaş, M. </b>, Erdem, E., Erdem, A., 
-    Göksun, T.,& Yüret,D. (2022). CRAFT: A Benchmark for Causal Reasoning About Forces and 
-    interactions. 60th Annual Meeting of the Association for Computational Linguistics.
+    Ateş, T., Ateşoğlu, Ş., Yiğit, Ç., Kesen, İ., <b>Kobaş, M.</b>, Erdem, E., Erdem, A., 
+    Göksun, T., & Yüret, D. (2022). CRAFT: A benchmark for causal reasoning about forces and
+    interactions. <i>Findings of the Association for Computational Linguistics: ACL 2022</i>,
+    2602–2627. Dublin, Ireland.
   links:
     - name: Article
-      url: https://arxiv.org/pdf/2012.04293
+      url: https://aclanthology.org/2022.findings-acl.205/
       icon: fa-solid fa-scroll
+    - name: Preprint
+      url: https://arxiv.org/abs/2012.04293
+      icon: fa-solid fa-file-lines
+    - name: Code & Data
+      url: https://github.com/hucvl/craft
+      icon: fa-brands fa-github
     - name: Website
       url: https://sites.google.com/view/craft-benchmark
       icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.18653/v1/2022.findings-acl.205
+      icon: ai ai-zotero
+  extra: >-
+    Open access via the ACL Anthology (DOI 10.18653/v1/2022.findings-acl.205).
+    Dataset and generation code: <a href="https://github.com/hucvl/craft">github.com/hucvl/craft</a>.
 doi: 10.18653/v1/2022.findings-acl.205
 ---
 
